@@ -17,6 +17,6 @@ class Blueprint extends BaseBlueprint
      */
     public function uuidEfficient($column)
     {
-        return $this->addColumn('uuid_efficient', $column);
+        return $this->addColumn('uuidEfficient', $column);
     }
 }
